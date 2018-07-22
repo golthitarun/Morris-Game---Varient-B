@@ -1,4 +1,4 @@
-# NINE MEN MORRIS GAME - VARIENT B 
+# NINE MEN MORRIS GAME - VARIENT B
 
 ## Game Rules
 
@@ -25,23 +25,21 @@ a mill.
 
 One way of representing a board position is by an array of length 21 , containing the pieces as the letters
 W, B, x. (The letter x stands for a “non-piece”.) The array specifies the pieces starting from bottom-left
-and continuing left-right bottom up. 
+and continuing left-right bottom up.
 
 Here are a two examples:
-1. xxxBxWWWWWBBBBxxxxxxx 
+1. xxxBxWWWWWBBBBxxxxxxx
 2. WWWWWWWWBBBBBBBBxxxxx
 
 ## Usage
 
-```sh 
+```sh
     $ python filename.py InputboardPosition.txt OutputboardPosition.txt
 ```
 
 ## Standard Output Example
-```sh 
+```sh
 Input position: xxxxxxxxxWxxxxxxBxxxx Output position: xxxxxxxxxWxxWxxxBxxxx
 Positions evaluated by static estimation: 9.
 MINIMAX estimate: 9987
 ```
-
-# Morris-Game---Varient-B
